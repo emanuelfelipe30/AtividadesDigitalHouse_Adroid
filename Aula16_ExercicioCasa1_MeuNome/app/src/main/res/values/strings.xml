@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meu nome</string>
+    <string name="nome"><b>Nome</b></string>
+    <string name="digite_o_seu_nome">Digite o seu nome</string>
+    <string name="exibir">Exibir</string>
+    <string name="mensagem">Meu nome é\n%s</string>
+</resources>
