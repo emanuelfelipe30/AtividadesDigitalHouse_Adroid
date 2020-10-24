@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="152dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="16dp">
+
+        <!-- Media -->
+        <ImageView
+            android:id="@+id/imgCharacterPicture"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/foto_do_personagem"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:id="@+id/txtCharacterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                tools:text="Rick Sanchez"/>
+
+            <TextView
+                android:id="@+id/txtCharacterGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                tools:text="Dead - Human" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:text="@string/location" />
+
+                <TextView
+                    android:id="@+id/txtCharacterPlanet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    tools:text="Earth" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
