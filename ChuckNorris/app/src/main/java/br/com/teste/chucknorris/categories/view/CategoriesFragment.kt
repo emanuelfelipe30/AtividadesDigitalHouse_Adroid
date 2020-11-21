@@ -40,7 +40,8 @@ class CategoriesFragment : Fragment() {
         val manager = LinearLayoutManager(view.context)
 
         _categoriesAdapter = CategoriesAdapter(_categories) {
-
+            val action = CategoriesFragmentDirections.actionCategoriesFragmentToMessageFragment(it)
+            findNavController().navigate(action)
         }
 
         _recyclerCategories.apply {

@@ -2,7 +2,6 @@ package br.com.teste.chucknorris.categories.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.ImageButton
 import androidx.recyclerview.widget.RecyclerView
 import br.com.teste.chucknorris.R
 

@@ -10,7 +10,7 @@ class CategoriesViewHolder(view: View): RecyclerView.ViewHolder(view) {
     private val txtCategoryName = view.findViewById<TextView>(R.id.txtCategoryName)
 
     fun bind(categoryName: String) {
-        txtCategoryName.text = categoryName
+        txtCategoryName.text = categoryName.capitalize()
     }
 
 }
