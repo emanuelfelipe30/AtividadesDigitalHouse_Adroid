@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="habilitar_notificao">Habilitar notificação</string>
+    <string name="shared_preferences">Shared\nPreferences</string>
+    <string name="login">LOGIN</string>
+    <string name="to_continue">TO CONTINUE</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="manter_me_conectado">Manter-me conectado</string>
+    <string name="usuario_autenticado">Usuário autenticado</string>
+    <string name="voltar_para_login">VOLTAR PARA LOGIN</string>
+</resources>
